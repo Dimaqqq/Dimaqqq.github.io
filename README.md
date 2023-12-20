@@ -11,7 +11,7 @@
   <body>
     <div id="main">
       <h1>Онлайн магазин</h1>
-      <img src="123.png" />
+      <img src="photo.jpg" />
       <p>sdfjvdhvbsdhfvbhsdbfhvbsdkjhfvblakjnfdvjkdnf</p>
       <button id="buy">Купить</button>
     </div>
