@@ -103,6 +103,10 @@
         let name = document.getElementById("user_name").value;
         let email = document.getElementById("user_email").value;
         let phone = document.getElementById("user_phone").value;
+        if (name.length < 5) {
+          document.getElementById("error").innerText = "ошибка в имени";
+          return;
+        }
         if (email.length < 5) {
           document.getElementById("error").innerText = "ошибка в имейл";
           return;
